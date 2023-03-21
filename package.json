@@ -1,10 +1,10 @@
 {
-  "name": "@lyy/test",
+  "name": "@lvyouyou/test",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "@lyy/test",
+    "name": "test",
     "triples": {
       "defaults": false,
       "additional": [
@@ -32,5 +32,9 @@
     "test": "ava",
     "universal": "napi universal",
     "version": "napi version"
+  },
+  "optionalDependencies": {
+    "@lyy/test-darwin-arm64": "0.0.0",
+    "@lyy/test-darwin-x64": "0.0.0"
   }
 }
